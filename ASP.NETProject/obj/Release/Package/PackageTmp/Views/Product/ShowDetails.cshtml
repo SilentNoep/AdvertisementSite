@@ -1,0 +1,89 @@
+﻿@model ASP.NETProject.Models.ProductAndSellerDetails
+@{
+    ViewBag.Title = "Product Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="container-fluid flex-container">
+    <div class="card-deck">
+        @if (Model.Image1 != null)
+            {
+            <div class="card">
+                <img class="img-fluid img-height"  src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Image1,0,Model.Image1.Length)">
+            </div>
+        }
+        @if (Model.Image2 != null)
+            {
+            <div class="card">
+                <img class="img-fluid img-height" src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Image2,0,Model.Image2.Length)">
+            </div>
+        }
+        @if (Model.Image3 != null)
+            {
+            <div class="card">
+                <img class="img-fluid img-height" src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Image3,0,Model.Image3.Length)">
+            </div>
+        }
+
+    @using (Html.BeginForm())
+    {
+        <div> </div>
+        <table cellpadding="1" cellspacing="1">
+
+            <tr>
+                <td><h5>@Model.Title </h5></td>
+
+            </tr>
+            <tr>
+                <td><p> @Model.ShortDescription.</p></td>
+
+            </tr>
+            <tr>
+                <td><p>@Model.LongDescription </p></td>
+
+            </tr>
+            <tr>
+                <td><p>Date Product Added To Website : @Model.DatePublished </p></td>
+
+            </tr>
+            <tr>
+                <td><p>Price : @Model.Price ₪</p></td>
+            </tr>
+            <tr>
+                <td><p>Owner's Details : @Model.FirstName @Model.LastName, Born In - @Html.DisplayFor(m => m.OwnerBirthdate), Email - @Model.Email</p></td>
+            </tr>
+            @if (Model.State == DAL.Models.State.Avaiable)
+            {
+
+                <tr>
+                    <td><div> @Html.ActionLink("Back To Main page", "Index", "Home")   </div></td>
+                </tr>
+
+                <tr>
+                    <td><div> @Html.ActionLink("Add To Cart", "AddToCart", new { Id = Model.Id }, null)  </div></td>
+
+                </tr>
+            }
+            else
+            {
+                <tr>
+                    <td><div> @Html.ActionLink("Buy Product", "BuyProduct", "Product", new { Id = @Model.Id }, null)   </div></td>
+                </tr>
+                <tr>
+                    <td><div> @Html.ActionLink("Remove Product From My Cart", "RemoveProductFromCart", "Product", new { Id = @Model.Id }, null)   </div></td>
+                </tr>
+
+                <tr>
+                    <td><div> @Html.ActionLink("Back To My Cart", "MyCart", "Product")   </div></td>
+                </tr>
+            }
+        </table>
+    }
+</div>
+    </div>
+
+
+
+

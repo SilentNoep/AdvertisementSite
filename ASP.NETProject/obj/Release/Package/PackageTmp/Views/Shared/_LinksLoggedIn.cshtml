@@ -1,0 +1,39 @@
+﻿    <h6>Navigation Links</h6>
+@if(ViewBag.Title == "All Products")
+{
+<div> @Html.ActionLink("Main page", "Index", "Home" ,new { @class = "btn : disabled" })  </div>
+}
+else
+{
+    @Html.ActionLink("Main page", "Index", "Home")
+}
+@if (Request.Cookies["user"] != null)
+{
+    if (ViewBag.Title == "Add New Product")
+    {
+        <div> @Html.ActionLink("Add Advertisement", "AddProduct", "Product", new { @class = "btn : disabled" })  </div>
+    }
+    else
+    {
+        <div> @Html.ActionLink("Add Advertisement", "AddProduct", "Product")  </div>
+    }
+}
+@if (ViewBag.Title == "About Us")
+{
+    <div> @Html.ActionLink("About Us", "AboutUs", "Home", new { @class = "btn : disabled" })  </div>
+}
+else
+{
+    <div> @Html.ActionLink("About Us", "AboutUs", "Home")  </div>
+}
+@if (ViewBag.Title == "My Cart")
+{
+    <div> @Html.ActionLink("My Cart", "MyCart", "Product", new { @class = "btn : disabled" })  </div>
+}
+else
+{
+    <div> @Html.ActionLink("My Cart", "MyCart", "Product")  </div>
+}
+   
+
+

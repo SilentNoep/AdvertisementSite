@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ASP.NETProject.Models.ProductPartialDetails>
+@{
+    ViewBag.Title = "All Products";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@*@Html.DropDownList("Sortby", new { onchange = "document.location.href = '/ControllerName/ActionName?id=' + this.options[this.selectedIndex].value;" })*@
+
+
+
+
+<div class="myindex-buttons"> Order Products By :
+    <button type="button" class="btn btn-primary" onclick="location.href='@Url.Action("OrderBy", "Home", new {orderby = "abc" })'">Alphabet</button>
+    <button type="button" class="btn btn-secondary" onclick="location.href='@Url.Action("OrderBy", "Home",new {orderby = "lowprice" })'">Lowest Price</button>
+    <button type="button" class="btn btn-info" onclick="location.href='@Url.Action("OrderBy", "Home",new {orderby = "highprice" })'">Highest Price</button>
+    <button type="button" class="btn btn-success" onclick="location.href='@Url.Action("OrderBy", "Home",new {orderby = "new" })'">Newest</button>
+    <button type="button" class="btn btn-light" onclick="location.href='@Url.Action("OrderBy", "Home",new {orderby = "old" })'">Oldest</button>
+    
+
+
+</div>
+
+<div class="flex-container "  style="background-color: #f1f1f1;">
+
+
+    @foreach (var c in Model)
+    {
+
+        @Html.Partial("_ProductPartialView", c)
+          
+    }
+    
+</div>
+
+
+
+
+
+
+

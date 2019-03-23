@@ -1,0 +1,45 @@
+﻿@model ASP.NETProject.Models.LoginViewModel
+
+@if (Request.Cookies["user"] == null)
+{
+    <div>
+        @using (Html.BeginForm("Signin", "User"))
+        {           
+            <p  class="userpassfontsize">  @Html.LabelFor(p => p.UserNameMeh)   </p>
+            <p  class="userpassfontsize"> @Html.EditorFor(p => p.UserNameMeh)  </p>
+            <p  class="userpassfontsize">  @Html.ValidationMessageFor(p => p.UserNameMeh)  </p>
+            <p  class="userpassfontsize">  @Html.LabelFor(p => p.PasswordMeh)   </p>
+            <p  class="userpassfontsize"> @Html.EditorFor(p => p.PasswordMeh) </p>
+            <p  class="userpassfontsize"> @Html.ValidationMessageFor(p => p.PasswordMeh)   </p>
+        <p><input type="submit" value="Log in" class="userpassfontsize" /></p>
+        }
+        <p>
+            <input type="button" value="Register" class="userpassfontsize" onclick="@("window.location.href='" + @Url.Action("RegisterUser", "User") + "'");" />
+        </p>
+    </div>
+}
+else
+{
+    <p>
+        Welcome @Request.Cookies["user"]["UserName"]
+    </p>
+
+    <p>
+        <input type="submit" value="Log Out" class="userpassfontsize" onclick="location.href='@Url.Action("DeleteCookie", "User")'" />
+    </p>
+    <p>
+        <input type="submit" value="Update Details" class="userpassfontsize" onclick="location.href='@Url.Action("UpdateUser", "User")'" />
+    </p>
+}
+
+
+
+
+
+
+
+
+
+
+
+

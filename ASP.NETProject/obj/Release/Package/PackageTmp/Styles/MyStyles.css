@@ -1,0 +1,68 @@
+﻿.myindex-buttons {
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    align-items: center;
+}
+
+.backgroundWhite {
+    background-color: white;
+}
+
+.backgroundgray {
+    background-color: gray;
+}
+
+.empty-cart {
+    font-weight: bold;
+    font-size: large;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+
+.row.content {
+    height: 450px;
+}
+
+
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+
+}
+
+.userpassfontsize {
+    font-size: 13px;
+}
+
+.img-height {
+    height: 250px;
+}
+.title-height {
+    height: 10px;
+}
+.shortdesc-height {
+    height: 10px;
+}
+.price-height {
+    height: 10px;
+}
+
+
+.img-heightfordetails {
+    height: 150px;
+}
+
+
+.img-width {
+    width: 15rem;
+}

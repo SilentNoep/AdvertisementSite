@@ -1,0 +1,25 @@
+﻿@model ASP.NETProject.Models.ProductPartialDetails
+
+<div class="card img-width" style="height:450px;">
+    @if (Model.Image1 != null)
+            { <img class="img-fluid img-height" src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Image1,0,Model.Image1.Length)"> }
+    else if (Model.Image2 != null)
+    { <img class="img-fluid img-height" src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Image2,0,Model.Image2.Length)"> }
+    else if (Model.Image3 != null)
+    { <img class="img-fluid img-height" src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Image3,0,Model.Image3.Length)"> }
+    <div class="card-body">
+        <h5 class="card-title">@Model.Title </h5>
+        <p class="card-text">@Model.ShortDescription</p>
+        <p class="card-text">Price : @Model.Price ₪</p>
+    </div>
+    <div class="card-body">
+        <div> @Html.ActionLink("Show Details", "ShowProductDetails", "Product", new { Id = Model.Id }, null)  </div>
+        <div> @Html.ActionLink("Add To Cart", "AddToCart", "Product", new { Id = Model.Id }, null)  </div>
+
+    </div>
+</div>
+
+
+
+
+

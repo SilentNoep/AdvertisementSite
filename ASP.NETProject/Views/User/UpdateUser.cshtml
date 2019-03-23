@@ -1,0 +1,86 @@
+﻿@model ASP.NETProject.Models.ViewModelUser
+@{
+    ViewBag.Title = "Update User";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div >
+
+
+    @using (Html.BeginForm("UserUpdated", "User"))
+    {
+
+        <table cellpadding="1" cellspacing="1">
+
+            <tr>
+                <td >@Html.LabelFor(p => p.UserName)</td>
+                <td>
+                    @Html.TextBoxFor(m => m.UserName, new {@readonly = true,@class = "backgroundgray" })
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(p => p.UserName)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(p => p.FirstName)</td>
+                <td>
+                    @Html.TextBoxFor(p => p.FirstName)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(p => p.FirstName)
+                </td>
+            </tr>
+            <tr>
+                <td >@Html.LabelFor(p => p.LastName)</td>
+                <td>
+                    @Html.TextBoxFor(p => p.LastName)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(p => p.LastName)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(p => p.BirthDate)</td>
+                <td>
+                    @Html.TextBoxFor(p => p.BirthDate)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(p => p.BirthDate)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(p => p.Email)</td>
+                <td>
+                    @Html.TextBoxFor(p => p.Email)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(p => p.Email)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(p => p.Password)</td>
+                <td>
+                    @Html.EditorFor(p => p.Password)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(p => p.Password)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(p => p.ConfirmPassword)</td>
+                <td>
+                    @Html.EditorFor(p => p.ConfirmPassword)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(p => p.ConfirmPassword)
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Update" /></td>
+            </tr>
+        </table>
+       
+    }
+</div>
+
+

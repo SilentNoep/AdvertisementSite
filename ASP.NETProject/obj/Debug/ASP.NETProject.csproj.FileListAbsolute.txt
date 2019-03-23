@@ -1,0 +1,81 @@
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\roslyn\csc.exe
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\roslyn\System.Collections.Immutable.dll
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\roslyn\vbc.exe
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\roslyn\VBCSCompiler.exe
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\roslyn\VBCSCompiler.exe.config
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\ASP.NETProject.dll.config
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\ASP.NETProject.dll
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\ASP.NETProject.pdb
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\DAL.dll
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\Microsoft.Web.Infrastructure.dll
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\System.Web.Helpers.dll
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\System.Web.Mvc.dll
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\System.Web.Razor.dll
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\System.Web.Webpages.Deployment.dll
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\System.Web.Webpages.dll
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\System.Web.Webpages.Razor.dll
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\EntityFramework.dll
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\DAL.pdb
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\System.Web.Razor.xml
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\System.Web.Webpages.xml
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\System.Web.Webpages.Deployment.xml
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\System.Web.Webpages.Razor.xml
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\System.Web.Helpers.xml
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\System.Web.Mvc.xml
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\EntityFramework.xml
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\obj\Debug\ASP.NETProject.csprojResolveAssemblyReference.cache
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\obj\Debug\ASP.NETProject.dll
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\obj\Debug\ASP.NETProject.pdb
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\EntityFramework.SqlServer.dll
+c:\users\meny lasry\documents\visual studio 2015\Projects\ASP.NETProject\ASP.NETProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\roslyn\csc.exe
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\roslyn\vbc.exe
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\ASP.NETProject.dll.config
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\ASP.NETProject.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\ASP.NETProject.pdb
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\DAL.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\EntityFramework.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\System.Web.Helpers.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\System.Web.Mvc.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\System.Web.Razor.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\System.Web.Webpages.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\System.Web.Webpages.Razor.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\DAL.pdb
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\DAL.dll.config
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\EntityFramework.xml
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\System.Web.Razor.xml
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\System.Web.Webpages.xml
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\System.Web.Webpages.Razor.xml
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\System.Web.Helpers.xml
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\bin\System.Web.Mvc.xml
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\obj\Debug\ASP.NETProject.csprojAssemblyReference.cache
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\obj\Debug\ASP.NETProject.csproj.CoreCompileInputs.cache
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\obj\Debug\ASP.NETProject.csproj.CopyComplete
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\obj\Debug\ASP.NETProject.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\ASP.NETProject\obj\Debug\ASP.NETProject.pdb

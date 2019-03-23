@@ -1,0 +1,86 @@
+﻿@model ASP.NETProject.Models.ProductViewModel
+@{
+    ViewBag.Title = "Add New Product";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div >
+
+
+    @using (Html.BeginForm("ProductAdded", "Product", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <table cellpadding="1" cellspacing="1">
+
+            <tr>
+                <td>@Html.LabelFor(p => p.Title)</td>
+                <td>
+                    @Html.EditorFor(p => p.Title)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(p => p.Title)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(p => p.ShortDescription)</td>
+                <td>
+                    @Html.EditorFor(m => m.ShortDescription)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(p => p.ShortDescription)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(p => p.LongDescription)</td>
+                <td>
+                    @Html.EditorFor(m => m.LongDescription)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(p => p.LongDescription)
+                </td>
+            <tr>
+                <td>@Html.LabelFor(p => p.MyCategory)</td>
+                <td>
+                    @Html.EnumDropDownListFor(m => m.MyCategory, new { @class ="form - control" })
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(p => p.MyCategory)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(p => p.Price)</td>
+                <td>
+                    @Html.EditorFor(m => m.Price)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(p => p.Price)
+                </td>
+            </tr>
+            <tr>
+                <td>Image 1 :</td>
+                <td>
+                    <input type="file" name="image1" />
+                </td>
+            </tr>
+            <tr>
+                <td>Image 2 :</td>
+                <td>
+                    <input type="file" name="image2" />
+                </td>
+            </tr>
+            <tr>
+                <td>Image 3 :</td>
+                <td>
+                    <input type="file" name="image3" />
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit" /></td>
+            </tr>
+        </table>
+
+
+
+
+    }
+</div>

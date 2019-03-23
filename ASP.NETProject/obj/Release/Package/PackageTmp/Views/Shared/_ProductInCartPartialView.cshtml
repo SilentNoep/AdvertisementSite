@@ -1,0 +1,8 @@
+﻿@model ASP.NETProject.Models.ProductPartialDetails
+
+
+<div>  @Html.ActionLink(Model.Title, "ShowProductDetails", new { Id = Model.Id })  Costs :  @Model.Price ₪ 
+    <button type="button" class="btn btn-primary btn-sm" onclick="location.href='@Url.Action("BuyProduct", "Product", new { Id = Model.Id })'">Buy Product</button>
+    <button type="button" class="btn btn-danger btn-sm" onclick="location.href='@Url.Action("RemoveProductFromCart", "Product", new { Id = Model.Id })'">Remove Product From My Cart</button>
+    </div>
+

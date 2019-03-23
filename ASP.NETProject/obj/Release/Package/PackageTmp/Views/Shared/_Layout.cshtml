@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script src="~/Scripts/jquery-3.0.0.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-reboot.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-grid.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-grid.min.css" rel="stylesheet" />
+    <link href="~/Styles/MyStyles.css" rel="stylesheet" />
+    <link href="~/Styles/common.css" rel="stylesheet" />
+</head>
+<body>
+
+    <nav class="navbar-dark bg-dark text-center " >
+        <div class="container">
+            <div  class="navbar-brand  font-weight-bold text-info" > 😄 Advertisement4Free </div> 
+            <div  class="navbar-brand  font-weight-bold text-danger"  > @ViewBag.Title</div> 
+            <div class="navbar-brand  font-weight-bold text-warning"> By Meny Lasry ⓒ</div> 
+        </div>
+        <div style="background-color: #f1f1f1;">
+            @Html.Partial("_SearchProduct", new ASP.NETProject.Models.ProductPartialDetails())
+
+        </div>
+    </nav>
+
+
+
+    <div class="container-fluid text-center" >
+        <div class="row content "  >
+            <div class="col-sm-2 sidenav" style="height:1000px; "   >
+                <div   class="backgroundWhite">
+                        @Html.Partial("_UserPassLoggedIn", new ASP.NETProject.Models.LoginViewModel())
+                </div>
+                <div></div>
+                <div></div>
+                <div  class="backgroundWhite" >
+                        @Html.Partial("_LinksLoggedIn")
+                </div>
+                <div>
+                    Advertisements
+                </div>
+                <div>
+                    <img class="img-fluid container" src="~/Assets/jack-spade.gif">
+                </div>
+                <div>
+                    <img class="img-fluid container" src="~/Assets/hm.gif">
+                </div>
+                <div>
+                    <img class="img-fluid container" src="~/Assets/pacorabanne.jpg">
+                </div>
+            </div>
+            <div class="col-sm-10"  >
+                    @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    @Html.Raw(TempData["message"])
+
+
+
+
+</body>
+</html>
+
+

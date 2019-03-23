@@ -1,0 +1,12 @@
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\DAL\bin\Release\DAL.dll.config
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\DAL\bin\Release\DAL.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\DAL\bin\Release\DAL.pdb
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\DAL\bin\Release\EntityFramework.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\DAL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\DAL\bin\Release\EntityFramework.xml
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\DAL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\DAL\obj\Release\DAL.csprojAssemblyReference.cache
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\DAL\obj\Release\DAL.csproj.CopyComplete
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\DAL\obj\Release\DAL.dll
+C:\Users\Meny Lasry\source\repos\ASP.NETProject\DAL\obj\Release\DAL.pdb

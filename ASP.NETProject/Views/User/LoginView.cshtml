@@ -1,0 +1,10 @@
+﻿@if (Request.Cookies["user"] != null)
+{
+    <div><h1>Successfully Logged In !</h1>  </div>
+}
+else
+{
+    <div><h1>Failed to Log In ! - Wrong Username Or Password </h1>  </div>
+
+}
+<button type="button" class="btn btn-primary" onclick="location.href='@Url.Action("Index", "Home")'">Go To All Products</button>

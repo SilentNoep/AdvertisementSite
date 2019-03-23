@@ -1,0 +1,18 @@
+﻿@model ASP.NETProject.Models.ProductPartialDetails
+
+<div style="height:50px;">
+
+    
+
+    @using (Html.BeginForm("SearchBy", "Home"))
+    {
+
+    
+        <input type="text" style="width:560px; height:37px; color:gray" name="title" value="Search Product" onfocus="this.value = ''; this.style='width:560px'" />
+            @Html.EnumDropDownListFor(m => m.Category, new { @class = "btn : btn btn-danger : form - control ", @style = "margin:auto" })
+            <input type="submit" class="btn btn-dark" value="Search" />
+            <input type="button" value="Show All Items" class="btn btn-warning" onclick="@("window.location.href='" + @Url.Action("Index", "Home") + "'");" />
+
+    }
+</div>
+
